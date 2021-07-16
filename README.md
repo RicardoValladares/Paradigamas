@@ -1,7 +1,3 @@
-# Paradigamas
-Paradigmas de Programacion
-
-
 ## Programación Estructurada
 En este tipo de paradigma no existe encapsulamiento de código, como podemos observar todo el código se estructura de manera secuencial en un solo bloque haciendo uso de estructuras condicionales y bucles de repetición.
 
