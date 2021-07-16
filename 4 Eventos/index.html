@@ -1,0 +1,66 @@
+<HTML>
+    <HEAD>
+        <TITLE>Ejemplo de Eventos</TITLE>
+        <META NAME='viewport' CONTENT='width=device-width, initial-scale=1'>
+        <SCRIPT TYPE='text/javascript'/>
+        	function primerevento(){
+        		alert('Eventos');
+        	}
+            function sumar(){
+            	var n1=parseFloat(document.getElementById('n1').value);
+            	var n2=parseFloat(document.getElementById('n2').value); 
+            	if(!(isNaN(n1))&&!(isNaN(n2))){
+            		document.getElementById('resultado').value=n1+n2;
+            	}
+            	else{
+            		document.getElementById('resultado').value='Datos Invalidos';
+            	}
+            }
+            function restar(){
+            	var n1=parseFloat(document.getElementById('n1').value);
+            	var n2=parseFloat(document.getElementById('n2').value);
+            	if(!(isNaN(n1))&&!(isNaN(n2))){
+            		document.getElementById('resultado').value=n1-n2;
+            	}
+            	else{
+            		document.getElementById('resultado').value='Datos Invalidos';
+            	}
+            }
+            function mutiplicar(){
+            	var n1=parseFloat(document.getElementById('n1').value);
+            	var n2=parseFloat(document.getElementById('n2').value);
+            	if(!(isNaN(n1))&&!(isNaN(n2))){
+            		document.getElementById('resultado').value=n1*n2;
+            	}
+            	else{
+            		document.getElementById('resultado').value='Datos Invalidos';
+            	}
+            }
+            function dividir(){
+            	var n1=parseFloat(document.getElementById('n1').value);
+            	var n2=parseFloat(document.getElementById('n2').value); 
+            	if(!(isNaN(n1))&&!(isNaN(n2))){
+            		document.getElementById('resultado').value=n1/n2;
+            	}
+            	else{
+            		document.getElementById('resultado').value='Datos Invalidos';
+            	}
+            }
+        </SCRIPT>
+    </HEAD>
+    <BODY BGCOLOR='black' TEXT='lawngreen' ONLOAD='primerevento()'>
+        <H3>Eventos onload, onclick</H3>
+        <HR>
+        <FORM>
+            <CENTER>
+                operador: <INPUT TYPE='text' ID='n1'><BR><BR>
+                operador: <INPUT TYPE='text' ID='n2'><BR><BR>
+                <INPUT TYPE='button' ONCLICK='sumar()' VALUE='sumar'> 
+                <INPUT TYPE='button' ONCLICK='restar()' VALUE='restar'> 
+                <INPUT TYPE='button' ONCLICK='mutiplicar()' VALUE='mutiplicar'> 
+                <INPUT TYPE='button' ONCLICK='dividir()' VALUE='dividir'><BR><BR>
+                resultado: <INPUT TYPE='text' ID='resultado'><BR><BR>
+            </CENTER>
+        </FORM>
+    </BODY>
+</HTML>
