@@ -12,4 +12,3 @@ En este tipo de paradigma no se tiene una función o bloque de código principal
 
 ## Programación Basada en Componentes
 En este tipo de paradigma se hacen uso de librerías o kits de desarrollo los cuales son como cajas negras las cuales no se sabe el código interno de como funcionan, pero si se saben los atributos y métodos públicos que traen para su funcionamiento, esto permite que los programadores usen librerías creadas por otros programadores, sin embargo la importancia de este paradigma es reducir tiempo de desarrollo al no tener que crear código que en ocasiones no se tiene ni idea de como desarrollarlo, ejemplo librería que convierte texto a vocalizar palabras.
-
